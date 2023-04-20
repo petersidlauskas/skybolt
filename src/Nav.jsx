@@ -4,10 +4,11 @@ const Nav = () => {
   return (
 <div class="nav"> 
      <ul>
-       <li><a href="http://shop.bronze56k.com">Shop</a></li>
-       <li>Video</li>
-       <li>Radio</li>
-       <li>Stockists</li>
+       <li>Film</li>
+       <li>Graphics</li>
+       <li>Editorial</li>
+       <li>About</li>
+       <li>Contact</li>
      </ul>
      </div>
   );
