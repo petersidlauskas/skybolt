@@ -1,8 +1,11 @@
 import React from 'react';
 
+
+
+
 const Nav = () => {
   return (
-<div class="nav"> 
+<div className="nav"> 
      <ul>
        <li>Film</li>
        <li>Graphics</li>
