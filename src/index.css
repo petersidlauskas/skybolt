@@ -29,9 +29,9 @@ ul {
 li {
   
   padding: 50px;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
-  font-family:'Times New Roman', Times, serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 li:hover{
