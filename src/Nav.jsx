@@ -13,6 +13,7 @@ const Nav = () => {
        <li id="nyc"><span>✱</span> NYC</li>
        <li id="tokyo"><span>✱</span> Tokyo</li>
        <li id="paris"><span>✱</span> Paris</li>
+       <li id="hell"><span>✱</span> Jersey</li>
      </ul>
      </div>
   );
