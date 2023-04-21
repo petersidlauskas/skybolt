@@ -14,7 +14,7 @@ code {
 
 
 .nav {
-  background-color: rgb(11, 199, 55);
+  background-color: rgb(252, 136, 4);
   height: 100px;
   display: flex;
   justify-content: center;
@@ -37,4 +37,8 @@ li {
 li:hover{
   color: grey;
   cursor: pointer;
+}
+
+span {
+  color: black;
 }

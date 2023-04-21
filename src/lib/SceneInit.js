@@ -79,6 +79,27 @@ export default class SceneInit {
     //   colorB: { type: 'vec3', value: new THREE.Color(0xfff000) },
     //   colorA: { type: 'vec3', value: new THREE.Color(0xffffff) },
     // };
+
+    const graphicsList = document.getElementById('graphics');
+    graphicsList.addEventListener('click', (event) => {
+    const targetId = event.target.id;
+    if (targetId) {
+    this.changeBackground(targetId);
+  }
+});
+
+
+}
+
+changeBackground(backgroundId) {
+  
+  
+
+  const textureLoader = new THREE.TextureLoader();
+  const backgroundImage = textureLoader.load(`../src/pics/${backgroundId}.jpeg`, () => {
+  this.scene.background = backgroundImage;
+});
+
   }
 
   animate() {
