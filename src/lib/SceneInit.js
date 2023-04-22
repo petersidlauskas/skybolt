@@ -24,7 +24,7 @@ export default class SceneInit {
     this.ambientLight = undefined;
     this.directionalLight = undefined;
 
-    this.background = new THREE.Color('blue');
+    //this.background = new THREE.Color('blue');
     this.scene = new THREE.Scene();
     //this.scene.background = this.background;
   }
